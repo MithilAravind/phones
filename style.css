@@ -23,7 +23,7 @@ body {
 }
 
 
-#products {
+.block {
   display: block;
   padding: 60px;
   text-align: left;
@@ -53,4 +53,10 @@ body {
 .homelink:hover {
   transform: scale(1.05);
   backdrop-filter: blur(14px);
+}
+
+.purchase-button {
+  padding-top: 2px;
+  background-color: white;
+  color: black;
 }
